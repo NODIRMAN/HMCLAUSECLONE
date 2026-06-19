@@ -1,0 +1,6 @@
+{
+  "name": "HM.CLAUSE Website Clone",
+  "description": "A high-fidelity visual and interactive clone of the HM.CLAUSE global vegetable seed company homepage featuring interactive crop exploration, R&D science pathways, and dynamic content grids.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

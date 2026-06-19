@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@300;400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, Cambria, Times, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Brand Colors reflecting HM.CLAUSE’s deep-rooted agronomy */
+  --color-brand-dark-green: #0c3e21; /* Rich forest green */
+  --color-brand-green: #0e6435;      /* Signature botanical green */
+  --color-brand-lime: #8fc73e;       /* Fresh sprout lime */
+  --color-brand-accent: #f59e0b;     /* Golden harvest orange */
+  --color-brand-soil: #1e1b18;       /* Deep ground loam */
+}
+
+@layer utilities {
+  .text-glow-lime {
+    text-shadow: 0 0 10px rgba(143, 199, 62, 0.4);
+  }
+}
+
+/* Custom scrollbars and transition timings */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
